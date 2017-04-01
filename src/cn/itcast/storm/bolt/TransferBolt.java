@@ -12,7 +12,7 @@ import backtype.storm.topology.base.BaseBasicBolt;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
-
+ 
 /**
  * 将数据做简单的 传递的Bolt
  * @author Administrator
