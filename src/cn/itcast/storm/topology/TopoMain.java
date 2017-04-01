@@ -25,6 +25,7 @@ public class TopoMain {
 		Config conf = new Config();
 		conf.setNumWorkers(2);
 		conf.setDebug(true);
+		//xxxxS
 		log.warn("$$$$$$$$$$$ submitting topology...");
 		StormSubmitter.submitTopology("life-cycle", conf, builder.createTopology());
 		log.warn("$$$$$$$4$$$ topology submitted !");
