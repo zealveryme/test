@@ -1,5 +1,5 @@
 package cn.itcast.storm.spout;
-
+ 
 import java.util.Map;
 import java.util.Random;
 
